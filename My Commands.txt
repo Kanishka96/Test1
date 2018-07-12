@@ -5,3 +5,4 @@ git pull origin master
 git push origin master
 git branch branch1
 git checkout branch1
+git push -u origin branch1

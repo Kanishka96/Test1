@@ -1,0 +1,27 @@
+create a workspace
+E:\University\Workshop\GIT\Project 1>git init
+
+create a text file
+E:\University\Workshop\GIT\Project 1>git status
+E:\University\Workshop\GIT\Project 1>git add index.txt
+(to add all the files   "git add ."
+E:\University\Workshop\GIT\Project 1>git status
+
+E:\University\Workshop\GIT\Project 1>git commit -m "First commit"
+E:\University\Workshop\GIT\Project 1>git config --global user.email "bc.kanishka@gmail.com"
+E:\University\Workshop\GIT\Project 1>git config --global user.name "kanishka96"
+E:\University\Workshop\GIT\Project 1>git commit -m "First commit"
+E:\University\Workshop\GIT\Project 1>git status
+
+E:\University\Workshop\GIT\Project 1>git branch
+E:\University\Workshop\GIT\Project 1>git branch branch_billing
+E:\University\Workshop\GIT\Project 1>git checkout branch_billing
+type 3rd statement
+E:\University\Workshop\GIT\Project 1>git add .
+E:\University\Workshop\GIT\Project 1>git commit -m "branch_sbilling first commit"
+
+E:\University\Workshop\GIT\Project 1>git log
+
+create another text file / add / commit
+E:\University\Workshop\GIT\Project 1>git checkout master
+E:\University\Workshop\GIT\Project 1>git merge branch_billing

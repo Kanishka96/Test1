@@ -2,3 +2,5 @@ git ignore
 git reset
 git clone https://github.com/Kanishka96/Test1.git
 git pull origin master
+git push origin master
+git branch branch1

@@ -6,3 +6,7 @@ git push origin master
 git branch branch1
 git checkout branch1
 git push -u origin branch1
+
+git merge branch1
+git branch --merged
+git branch -d branch1
